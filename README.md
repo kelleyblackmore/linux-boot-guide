@@ -3,12 +3,15 @@
 
 ### Choose a boot option
 
-Step one: Download a Linux OS. (I recommend doing this, and all subsequent steps, on your current PC, not the destination system. Although the latter is an option if it's malware-free and in decent working order, everything will get done faster and more easily on your primary machine.)
+Step one: Download a Linux OS. 
+
 Step two: Create a bootable CD/DVD or USB flash drive.
+
 Step three: Boot that media on the destination system, then make a few decisions regarding the installation.
+
 The first part is easy: Just download Linux from Mint or Ubuntu or whatever site hosts the version you want. That download will likely consist of a single ISO file. Note: An older computer may have a 32-bit processor, which won't work with 64-bit versions of Linux.
 
-The second part -- creating boot media -- requires a little thought. The fastest, easiest method is to use a flash drive, even if the destination system has a CD/DVD drive. Indeed, the only reason not to go the flash-drive route is if the destination system won't boot (or boot properly) from one. (I've encountered this problem a few times, even after tweaking the BIOS boot settings and actually selecting "USB drive" from a pop-up boot menu.)
+The second part -- creating boot media -- requires a little thought. The fastest, easiest method is to use a flash drive, even if the destination system has a CD/DVD drive. Indeed, the only reason not to go the flash-drive route is if the destination system won't boot from one. 
 
 My advice: Try a flash drive first. If it doesn't work, you can always use that same ISO file to create a bootable CD later.
 
@@ -34,16 +37,16 @@ Now it's time to turn your attention to the destination system. It doesn't matte
 That may mean venturing into the BIOS and changing the boot order, which by default almost certainly puts the hard drive first. Some systems do offer a pop-up boot menu that lets you choose what device to boot from without having to monkey with the settings. If yours does, count yourself lucky.
 
 hit F10 or may be F1 
-
-
 it might also be F2, F9, F12 or even the Delete key. Depends on the system.
 
-Once you've found your way into the BIOS, find the boot or startup menu and make sure "flash drive" or "USB drive" is first in the boot order. Then save and exit (usually by pressing F10, but, again, this varies).
+Once you've found your way into the BIOS, find the boot or startup menu and make sure "flash drive" or "USB drive" is first in the boot order. 
+Then save and exit.
+
 
 One OS or two?
 
 
-As you probably know already, Linux can boot and run right from the flash drive -- no actual installation required.
+Linux can boot and run right from the flash drive -- no actual installation required.
 
 The big decision you'll need to make is whether you want to install Linux alongside your existing OS, which would result in a dual-boot setup, or reformat the hard drive and run only Linux. The former is worth considering if the system has a large drive and can easily accommodate both operating systems, or you still have need for Windows.
 
@@ -56,7 +59,5 @@ Step two: Double-click the Install Linux icon on the desktop.
 Step three: Make any requested selections regarding language, installation of third-party software and so on. Then choose your OS installation preference: alongside the existing OS or erase-and-install.
 
 
-After you make your choice, just sit back and wait while Linux does its thing.
 The installation might take some time
 
-Now that you're up and running, hit the comments and let us know which Linux distro you chose and how the installation went!
